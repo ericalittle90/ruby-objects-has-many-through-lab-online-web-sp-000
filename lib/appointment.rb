@@ -1,6 +1,6 @@
 class Appointment
 
-  attr_accessor :name, :doctor, :patient
+  attr_accessor :date, :doctor, :patient
 
   @@all = []
 
@@ -13,4 +13,4 @@ class Appointment
     @@all
   end
 
-end 
+end
