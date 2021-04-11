@@ -17,10 +17,10 @@ class Appointment
 
   def patient
     @patient
-  end 
+  end
 
   def doctor
     @doctor
-  end 
+  end
 
 end
