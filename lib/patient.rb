@@ -17,4 +17,16 @@ class Patient
     Doctor.new(date, doctor, self)
   end
 
+  def doctors
+  appointments.map do |appointment|
+    appointment.doctor 
+  end   
+end   
+
+def appointments
+  Appointment.all.select do|appointment| 
+    appointment.patient == self
+  end   
+end
+
 end
