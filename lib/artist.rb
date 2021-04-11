@@ -13,16 +13,16 @@ class Artist
     @@all
   end
 
-  def new_song(name, genre) 
-    
-  end 
+  def new_song(name, genre)
 
-  def songs 
+  end
 
-  end 
+  def songs
 
-  def genres 
+  end
 
-  end 
+  def genres
 
-end 
+  end
+
+end
