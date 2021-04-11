@@ -27,4 +27,3 @@ class Doctor
     appointments.map {|s| s.patient}
   end
 end
-end 
